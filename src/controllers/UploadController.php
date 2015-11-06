@@ -18,7 +18,6 @@ class UploadController extends LfmController {
     /**
      * Upload an image/file and (for images) create thumbnail
      *
-     * @param UploadRequest $request
      * @return string
      */
     public function upload()
